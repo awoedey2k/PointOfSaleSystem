@@ -9,7 +9,7 @@ import java.text.DecimalFormat;
  */
 public class FakeDatabase implements DataStorageStrategy {
     
-    DecimalFormat formatter = new DecimalFormat("#,##0.00");
+    //private DecimalFormat formatter = new DecimalFormat("#,##0.00");
     
     // Properties
     private Product product;

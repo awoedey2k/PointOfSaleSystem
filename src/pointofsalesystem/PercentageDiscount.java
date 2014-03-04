@@ -8,7 +8,6 @@ import java.text.DecimalFormat;
  * @author Esvin J Mazariegos
  */
 public class PercentageDiscount implements DiscountStrategy {
-    DecimalFormat formatter = new DecimalFormat("#,##0.00");
     // Properties
     private double percentRate  = .10;
     
